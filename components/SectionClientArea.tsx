@@ -8,7 +8,7 @@ export const SectionClientArea: React.FC = () => {
       title: 'Portal do Cliente',
       subtitle: 'Sistema Contábil',
       btnText: 'Acessar Agora',
-      href: 'https://portal.contabilidadeconttrole.com.br',
+      href: 'https://vip.acessorias.com/contabilidadeconttrole',
       icon: 'fa-lock',
       gradient: 'from-[#0f2e4a] to-[#040e17]',
       accent: 'text-blue-400'
@@ -18,30 +18,10 @@ export const SectionClientArea: React.FC = () => {
       title: 'Banco Cora',
       subtitle: 'Conta PJ Digital',
       btnText: 'Abrir Conta',
-      href: 'https://www.cora.com.br/',
+      href: 'https://lp.cora.com.br/coraliados/?code=contabilidadeconttrole&n=CONTABILIDADE%20CONTTROLE',
       icon: 'fa-wallet',
       gradient: 'from-[#2d1b36] to-[#0e0412]',
       accent: 'text-pink-400'
-    },
-    {
-      id: 'conta-bsb',
-      title: 'BSB Pay',
-      subtitle: 'Gestão de Pagamentos',
-      btnText: 'Conhecer',
-      href: 'https://bsbpay.com.br/',
-      icon: 'fa-credit-card',
-      gradient: 'from-[#1e1a3d] to-[#080612]',
-      accent: 'text-purple-400'
-    },
-    {
-      id: 'materiais-gratuitos',
-      title: 'Downloads',
-      subtitle: 'Materiais Ricos',
-      btnText: 'Baixar',
-      href: '#materiais-gratuitos',
-      icon: 'fa-download',
-      gradient: 'from-[#0e2e26] to-[#03120e]',
-      accent: 'text-emerald-400'
     },
   ];
 
@@ -71,7 +51,7 @@ export const SectionClientArea: React.FC = () => {
             </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
           {resources.map((item, idx) => (
             <motion.div
               key={idx}

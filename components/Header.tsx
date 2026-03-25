@@ -87,10 +87,8 @@ export const Header: React.FC = () => {
       label: 'Área do Cliente',
       href: '#area-cliente',
       submenu: [
-        { label: 'Acesso ao sistema', href: '#acesso-sistema' },
-        { label: 'Conta PJ gratuita - Banco Cora', href: '#conta-cora' },
-        { label: 'Conta PJ gratuita - Banco BSB Pay', href: '#conta-bsb' },
-        { label: "Ebook's e materiais gratuitos", href: '#materiais-gratuitos' },
+        { label: 'Acesso ao sistema', href: 'https://vip.acessorias.com/contabilidadeconttrole' },
+        { label: 'Conta PJ gratuita - Banco Cora', href: 'https://lp.cora.com.br/coraliados/?code=contabilidadeconttrole&n=CONTABILIDADE%20CONTTROLE' },
       ],
     },
     { label: 'Contato', href: '#contato' },
