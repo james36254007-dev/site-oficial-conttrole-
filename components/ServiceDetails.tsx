@@ -188,6 +188,11 @@ export const ServiceDetails: React.FC = () => {
                     </ul>
                 </div>
              </div>
+             <div className="mt-8 flex justify-center">
+                 <a href="mailto:warleson@contabilidadeconttrole.com.br" className="inline-block bg-gradient-to-r from-primary to-secondary hover:brightness-110 text-white border border-transparent px-8 py-4 rounded-full text-sm font-bold uppercase tracking-wider transition-all hover:scale-105 shadow-[0_0_20px_rgba(39,175,232,0.3)]">
+                     Registre sua marca conosco
+                 </a>
+             </div>
         </div>
       </DetailSection>
 
@@ -198,12 +203,12 @@ export const ServiceDetails: React.FC = () => {
                     Terceirize o operacional. <br/>
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">Foque na estratégia.</span>
                 </h3>
-                <p className="text-base text-muted/80">
+                <p className="text-base text-muted/80 mb-6">
                     Assumimos suas contas a pagar, a receber, conciliação bancária e fluxo de caixa. Você recebe relatórios prontos para decidir.
                 </p>
-                <button className="bg-primary/10 hover:bg-primary/20 text-white border border-primary/30 hover:border-primary/50 px-6 py-3 rounded-full text-sm font-semibold transition-all hover:scale-105">
-                    Quero saber mais sobre BPO
-                </button>
+                <a href="mailto:warleson@contabilidadeconttrole.com.br" className="inline-block bg-primary/10 hover:bg-primary/20 text-white border border-primary/30 hover:border-primary/50 px-8 py-4 rounded-full text-sm font-bold uppercase tracking-wider transition-all hover:scale-105 text-center">
+                    Quero saber mais
+                </a>
              </div>
              
              <div className="flex-1 grid grid-cols-2 gap-4 w-full">

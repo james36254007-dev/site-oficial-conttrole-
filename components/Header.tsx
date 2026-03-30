@@ -112,19 +112,19 @@ export const Header: React.FC = () => {
           {/* Logo */}
           <a 
             href="#home" 
-            className="block z-[60] relative group mr-4" 
+            className="flex flex-col items-center z-[60] relative group mr-4" 
             onClick={(e) => handleLinkClick(e, '#home')}
           >
-            <div className="font-display font-bold tracking-wide select-none text-white drop-shadow-md">
+            <div className="font-display font-bold tracking-wide select-none text-white drop-shadow-md flex justify-center">
               <img 
                 src="/a.png" 
                 alt="Conttrole" 
-                className="h-[1.8em] lg:h-[2em] w-auto inline-block align-middle" 
+                className="h-[2.5em] lg:h-[3.5em] w-auto inline-block align-middle" 
                 style={{ animation: 'glowingImage 3s ease-in-out infinite' }}
                 referrerPolicy="no-referrer"
               />
             </div>
-            <div className="text-[0.65rem] lg:text-xs text-muted/80 uppercase tracking-[0.12em] mt-1 select-none font-medium group-hover:text-white transition-colors">
+            <div className="text-[0.65rem] lg:text-xs text-muted/80 uppercase tracking-[0.12em] mt-1 select-none font-medium group-hover:text-white transition-colors text-center">
               Contabilidade digital
             </div>
           </a>
@@ -181,6 +181,11 @@ export const Header: React.FC = () => {
               </li>
               ))}
             </ul>
+            <div className="hidden lg:flex items-center gap-4 ml-2 border-l border-white/10 pl-4">
+              <a href="https://www.instagram.com/contabilidadeconttrole/" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white hover:scale-110 transition-all"><i className="fab fa-instagram text-lg"></i></a>
+              <a href="https://www.youtube.com/@conttrolecontabilidade2914" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white hover:scale-110 transition-all"><i className="fab fa-youtube text-lg"></i></a>
+              <a href="https://www.tiktok.com/@conttrole_contabilidade" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white hover:scale-110 transition-all"><i className="fab fa-tiktok text-lg"></i></a>
+            </div>
             <a
               href="#area-cliente"
               className="ml-2 bg-gradient-to-r from-primary to-secondary hover:brightness-110 text-white drop-shadow-md px-3 py-2 lg:px-6 lg:py-2.5 rounded-full font-semibold normal-case tracking-wide transition-all duration-300 shadow-[0_0_15px_rgba(39,175,232,0.3)] hover:shadow-[0_0_25px_rgba(39,175,232,0.5)] transform hover:-translate-y-0.5 text-xs lg:text-base whitespace-nowrap"
@@ -253,6 +258,11 @@ export const Header: React.FC = () => {
           ))}
           
           <li className="mt-8">
+            <div className="flex justify-center gap-8 mb-8">
+              <a href="https://www.instagram.com/contabilidadeconttrole/" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white hover:scale-110 transition-all"><i className="fab fa-instagram text-2xl"></i></a>
+              <a href="https://www.youtube.com/@conttrolecontabilidade2914" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white hover:scale-110 transition-all"><i className="fab fa-youtube text-2xl"></i></a>
+              <a href="https://www.tiktok.com/@conttrole_contabilidade" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white hover:scale-110 transition-all"><i className="fab fa-tiktok text-2xl"></i></a>
+            </div>
             <a
               href="#area-cliente"
               className="block w-full text-center bg-gradient-to-r from-primary to-secondary hover:brightness-110 text-white drop-shadow-md px-6 py-3.5 rounded-full font-semibold normal-case tracking-wide transition-all duration-300 shadow-[0_0_20px_rgba(39,175,232,0.4)]"

@@ -13,9 +13,9 @@ export const Footer: React.FC = () => {
       >
         <div className="flex justify-center gap-4 mb-4">
           {[
-            { icon: 'fa-instagram', label: 'Instagram', href: '#' },
-            { icon: 'fa-youtube', label: 'YouTube', href: '#' },
-            { icon: 'fa-tiktok', label: 'TikTok', href: '#' },
+            { icon: 'fa-instagram', label: 'Instagram', href: 'https://www.instagram.com/contabilidadeconttrole/' },
+            { icon: 'fa-youtube', label: 'YouTube', href: 'https://www.youtube.com/@conttrolecontabilidade2914' },
+            { icon: 'fa-tiktok', label: 'TikTok', href: 'https://www.tiktok.com/@conttrole_contabilidade' },
             { icon: 'fa-whatsapp', label: 'WhatsApp', href: 'https://wa.me/5531995296719' },
           ].map((social, idx) => (
             <a

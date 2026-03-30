@@ -24,7 +24,7 @@ export const SectionContact: React.FC = () => {
     });
 
     setTimeout(() => {
-      const mailtoLink = `mailto:comercial@contabilidadeconttrole.com.br?subject=${encodeURIComponent(assunto || 'Contato pelo Site')}&body=${encodeURIComponent(`Nome: ${nome}\nE-mail: ${email}\nTelefone: ${telefone}\n\nMensagem:\n${mensagem}`)}`;
+      const mailtoLink = `mailto:warleson@contabilidadeconttrole.com.br?subject=${encodeURIComponent(assunto || 'Contato pelo Site')}&body=${encodeURIComponent(`Nome: ${nome}\nE-mail: ${email}\nTelefone: ${telefone}\n\nMensagem:\n${mensagem}`)}`;
       window.location.href = mailtoLink;
       
       // Reset form after a short delay
@@ -174,7 +174,7 @@ export const SectionContact: React.FC = () => {
                     { icon: 'fa-location-dot', title: 'Endereço', text: 'Rua Pedro da Costa Correia, 22 – Sala 05 – Várzea Alegre, Ribeirão das Neves – MG' },
                     { icon: 'fa-phone', title: 'Telefone', text: '(31) 3157-7244' },
                     { icon: 'fa-whatsapp', title: 'WhatsApp', text: '(31) 99529-6719', link: 'https://wa.me/5531995296719' },
-                    { icon: 'fa-envelope', title: 'E-mail', text: 'comercial@contabilidadeconttrole.com.br' }
+                    { icon: 'fa-envelope', title: 'E-mail', text: 'warleson@contabilidadeconttrole.com.br' }
                 ].map((info, i) => (
                     <div key={i} className="flex items-start gap-5 p-5 rounded-2xl border border-white/5 hover:bg-white/5 transition-colors group hover:border-white/10">
                         <div className="w-10 h-10 rounded-lg bg-primary/10 border border-primary/20 flex items-center justify-center text-white text-sm shadow-lg shrink-0 group-hover:scale-110 group-hover:bg-primary/20 transition-all">
@@ -200,7 +200,7 @@ export const SectionContact: React.FC = () => {
                 <iframe
                     title="Localização Conttrole"
                     loading="lazy"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3753.1!2d-44.0!3d-19.8!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa68f300b1a0e9b%3A0x2a3e614619b01d0a!2sRibeir%C3%A3o%20das%20Neves%2C%20MG!5e0!3m2!1spt-BR!2sbr!4v1715000000000!5m2!1spt-BR!2sbr"
+                    src="https://maps.google.com/maps?q=R.%20Pedro%20da%20Costa%20Correia,%2022%20-%20V%C3%A1rzea%20Alegre,%20Ribeir%C3%A3o%20das%20Neves%20-%20MG,%2033805-570&t=&z=17&ie=UTF8&iwloc=&output=embed"
                     className="w-full h-full border-0 filter grayscale invert-[0.93] contrast-[1.1] opacity-60 hover:opacity-90 transition-opacity duration-500"
                     referrerPolicy="no-referrer-when-downgrade"
                 ></iframe>

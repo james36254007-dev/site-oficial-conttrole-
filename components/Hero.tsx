@@ -59,7 +59,7 @@ export const Hero: React.FC = () => {
           initial={{ opacity: 0, x: -30 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className="order-1 flex justify-center lg:justify-start relative group perspective-[1000px]"
+          className="order-2 lg:order-1 flex justify-center lg:justify-start relative group perspective-[1000px] mt-12 lg:mt-0"
         >
            
            {/* Ambient Glow behind subject */}
@@ -120,7 +120,7 @@ export const Hero: React.FC = () => {
           initial={{ opacity: 0, x: 30 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
-          className="order-2 text-center lg:text-left -mt-20 sm:-mt-24 lg:mt-0 relative z-20"
+          className="order-1 lg:order-2 text-center lg:text-left relative z-20"
         >
           
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/5 border border-white/10 backdrop-blur-md shadow-lg mb-6 group cursor-default hover:bg-white/10 transition-colors">
