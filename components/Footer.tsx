@@ -34,7 +34,7 @@ export const Footer: React.FC = () => {
           Neves – MG, 33.805-570
         </p>
         <p className="opacity-80 text-xs mt-4">
-          Copyright © 2026 – CONTABILIDADE CONTTROLE LTDA – Desenvolvido pela c4 marketing brasil
+          Copyright © 2026 – CONTABILIDADE CONTTROLE LTDA – Desenvolvido pela C4 MARKETING BRASIL LTDA
         </p>
       </motion.div>
     </footer>
